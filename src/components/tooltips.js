@@ -5,11 +5,11 @@ import './tooltips.css';
 export default class Tooltip extends Component {
 	render() {
 		return (
-			<div class="tooltip">
-				<div class="tooltip-text">
+			<div className="tooltip">
+				<div className="tooltip-text">
 					{this.props.defaultText}
 				</div>
-				<div class={"tooltip-text-" + this.props.position}>
+				<div className={"tooltip-text-" + this.props.position}>
 					{this.props.tooltipsText}
 				</div>
 			</div>
